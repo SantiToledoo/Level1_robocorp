@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20231006 15:43:32.295" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Usuario\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231006 15:47:01.136" endtime="20231006 15:47:05.473"/>
+</kw>
+<kw name="Open Available Browser(url: str | None = None">
+<msg timestamp="20231006 15:49:58.385" level="FAIL">No keyword with name 'Open Available Browser(url: str | None = None' found. Did you try using keyword 'RPA.Browser.Selenium.Open Available Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20231006 15:49:58.385" endtime="20231006 15:49:58.385"/>
+</kw>
+<kw name="Open Available Browser(url: str | None = None)">
+<msg timestamp="20231006 15:50:05.202" level="FAIL">No keyword with name 'Open Available Browser(url: str | None = None)' found. Did you try using keyword 'RPA.Browser.Selenium.Open Available Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20231006 15:50:05.202" endtime="20231006 15:50:05.202"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231006 15:50:31.286" endtime="20231006 15:50:34.925"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231006 15:50:43.444" endtime="20231006 15:50:46.380"/>
+</kw>
+<status status="PASS" starttime="20231006 15:43:32.329" endtime="20231006 15:53:05.843"/>
+</kw>
+<status status="PASS" starttime="20231006 15:43:32.329" endtime="20231006 15:53:05.844"/>
+</test>
+<status status="PASS" starttime="20231006 15:43:32.297" endtime="20231006 15:53:05.844"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
